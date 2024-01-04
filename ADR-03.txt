@@ -1,0 +1,34 @@
+##Context 
+The component diagram of the visa processing system shows its architecture, 
+that includes a number of loosely coupled, independently deployable components, 
+such as a database, sign-in controller, email component, security components, 
+single-page application, and various services like document verification and 
+payment processing.
+
+##decision 
+For the visa processing system, i decided to use a microservices architecture, 
+in which every part is created, implemented, and run as a separate service.
+
+##rationale  
+Following the guidelines of contemporary software development methods, 
+a microservices architecture approach allows for independent scaling, 
+simpler maintenance, and quicker deployment cycles for each component 
+[Newman 2015]. Continuous delivery and deployment methods, which are essential 
+to the development and operations team's agility, are supported by this architecture 
+[FowlerMicroservices].
+
+##implications 
+Additional monitoring and logging services will ge necessary to oversea the distributed system
+
+##status 
+Approved
+
+##decision maker 
+Imraan Khan
+
+##date 
+12/11/23
+
+##Reference
+[Newman2015] Newman, S. (2015). "Building Microservices: Designing Fine-Grained Systems." O'Reilly Media,
+ https://www.oreilly.com/library/view/building-microservices/9781491950340/.

@@ -1,0 +1,32 @@
+##Context 
+A number of services, including a database, email system, file storage, 
+and background check service, are shown in the code diagram for the visa 
+processing system. The application submission process, eligibility verification, 
+and retrieval of visa categories for particular nations are all managed by the system.
+
+##decision 
+For the visa processing system, we have chosen to use a Service-Oriented Architecture 
+in order to make it easier for the different components to communicate with other services, 
+as shown in the code diagram.
+
+##rationale  
+A scalable, adaptable, and agile architecture made possible by SOA encourages reusability 
+and maintainability while facilitating integration with various services [Erl, 2016]. Additionally, 
+this architecture facilitates the modularization of business operations, which allows the system to adjust 
+to evolving legal and regulatory requirements [Krafzig, 2005].
+
+##implications 
+Developers and system administrators will need training in SOA design patterns and principles
+
+##status 
+Approved
+
+##decision maker 
+Imraan Khan
+
+##date 
+21/11/23
+
+##Reference
+[Erl2016] Erl, T., Carlyle, B., Pautasso, C., & Balasubramanian, R. (2016). "SOA with REST: Principles, Patterns & Constraints for Building Enterprise Solutions with REST." Prentice Hall, https://www.informit.com/store/soa-with-rest-principles-patterns-and-constraints-for-9780137012510.
+[Krafzig2005] Krafzig, D., Banke, K., & Slama, D. (2005). "Enterprise SOA: Service-Oriented Architecture Best Practices." Prentice Hall, https://www.pearson.com/store/p/enterprise-soa-service-oriented-architecture-best-practices/P100000659148/9780131465756.

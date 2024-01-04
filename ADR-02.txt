@@ -1,0 +1,34 @@
+##Context 
+The architecture of the visa processing system is displayed by the container
+diagram and includes a web application, a single-page application, an API application,
+and additional services including email system, payment gateway, background check service, 
+document verification service, and file storage. Every component has a specific purpose and needs to be 
+clearly defined, as well as the protocols for interacting with the other components.
+
+##decision 
+We have made the decision to isolate every part of the visa processing system
+into a separate container in order to support better service orchestration, 
+autonomous scalability, and deployment.
+
+##rationale  
+Since containerisation improves scalability, portability, and consistency of deployment settings,
+it is widely accepted as a best practice for contemporary software architecture [Bernstein, 2014].
+A greater degree of service isolation can be attained through the use of containers, which reduces 
+the complexity of interdependencies, improves security, and simplifies setup [Newman, 2015].
+
+##implications 
+the development team must be trained in container management best 
+practice.
+
+##status 
+Approved
+
+##decision maker 
+Imraan Khan
+
+##date 
+10/10/23
+
+##Reference
+Bernstein2014] Bernstein, D. (2014). "Containers and Cloud: From LXC to Docker to Kubernetes." IEEE Cloud Computing, 1(3), https://ieeexplore.ieee.org/document/6881691.
+[Newman2015] Newman, S. (2015). "Building Microservices: Designing Fine-Grained Systems." O'Reilly Media, https://www.oreilly.com/library/view/building-microservices/9781491950340/.

@@ -1,0 +1,33 @@
+##Context 
+The visa processing system's class diagram shows a number of entities, including 
+the visa applicant, application, document, visa, and supplementary services. 
+These classes contain behaviour and information relevant to the visa application 
+procedure.
+
+##decision 
+For the visa processing system, we have chosen to use object-oriented design (OOD), 
+which entails designing distinct classes and relationships that correspond to the system's 
+domain model.
+
+##rationale  
+Object-oriented design facilitates code reuse, maintenance, and scalability 
+by offering a clear approach for modelling real-world entities and their interactions 
+[Booch2007]. We increase the system's robustness and modularity by encapsulating data and 
+behaviour into separate classes [Martin2003].
+
+##implications 
+The system will be more maintainable and adaptable to new requirements due to the 
+encapsulation and modularization of fuctionality
+
+##status 
+Approved
+
+##decision maker 
+Imraan Khan
+
+##date 
+23/12/23
+
+##Reference
+[Booch2007] Booch, G., Rumbaugh, J., & Jacobson, I. (2007). "The Unified Modeling Language User Guide (2nd Edition)." Addison-Wesley Professional, https://www.informit.com/store/unified-modeling-language-user-guide-the-9780321267979.
+[Martin2003] Martin, R. C. (2003). "Agile Software Development, Principles, Patterns, and Practices." Prentice Hall, https://www.pearson.com/us/higher-education/program/Martin-Agile-Software-Development-Principles-Patterns-and-Practices/PGM31929.html.
